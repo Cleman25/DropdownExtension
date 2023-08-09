@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> VARIABLE -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link type="text/css" href="./index.css" rel="stylesheet" >
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <div id="myDropdown" class="dropdown" title="Dropdown">
+                <i class="material-icons dropdown-pre-icon noselect">info</i>
+                <span class="dropdown-title noselect">Test</span>
+                <i class="material-icons dropdown-button noselect"></i>
+                <div class="dropdown-content">
+                    <span class="dropdown-item active">Item 1</span>
+                    <span class="dropdown-item">Item 2</span>
+                    <span class="dropdown-item">Item 3</span>
+                    <span class="dropdown-item">Item 4</span>
+                    <span class="dropdown-item">Item 5</span>
+                </div>
+            </div>
+            <div id="myDropdown1" class="dropdown" searchable="" title="Searchable Dropdown">
+                <i class="material-icons dropdown-pre-icon noselect">person</i>
+                <span class="dropdown-title noselect">Test</span>
+                <i class="material-icons dropdown-button noselect"></i>
+                <div class="dropdown-content">
+                    <span class="dropdown-item active">Person 1</span>
+                    <span class="dropdown-item">Person 2</span>
+                    <span class="dropdown-item">Person 3</span>
+                    <span class="dropdown-item">Person 4</span>
+                    <span class="dropdown-item">Person 5</span>
+                </div>
+            </div>
+            <div id="myDropdown2" class="dropdown" multiple="" title="Multiple Dropdown">
+                <i class="material-icons dropdown-pre-icon noselect">info</i>
+                <span class="dropdown-title noselect">Test</span>
+                <i class="material-icons dropdown-button noselect"></i>
+                <div class="dropdown-content">
+                    <span class="dropdown-item active">Item 1</span>
+                    <span class="dropdown-item">Item 2</span>
+                    <span class="dropdown-item">Item 3</span>
+                    <span class="dropdown-item">Item 4</span>
+                    <span class="dropdown-item">Item 5</span>
+                </div>
+            </div>
+            <div id="myDropdown3" class="dropdown" searchable="" multiple="" title="Searchable Multiple Dropdown">
+                <i class="material-icons dropdown-pre-icon noselect">info</i>
+                <span class="dropdown-title noselect">Test</span>
+                <i class="material-icons dropdown-button noselect"></i>
+                <div class="dropdown-content">
+                    <span class="dropdown-item active">Item 1</span>
+                    <span class="dropdown-item">Item 2</span>
+                    <span class="dropdown-item">Item 3</span>
+                    <span class="dropdown-item">Item 4</span>
+                    <span class="dropdown-item">Item 5</span>
+                </div>
+            </div>
+            <dropdown-element id="myDropdown4" class="dropdown" source="./data.json" preIcon="link" searchable="" multiple="" title="External Multiple Searchable Dropdown" src="">
+                <i class="material-icons dropdown-pre-icon noselect">link</i>
+                <span class="dropdown-title noselect">External Dropdown</span>
+                <i class="material-icons dropdown-button noselect">arrow_drop_down</i>
+                <dropdown-content class="dropdown-content">
+                </dropdown-content>
+            </dropdown-element>
+        </main>
+        <script src="./dropdown.js"></script>
+        <!-- <script src="./dropdownInput.js"></script> -->
+    </body>
+</html>
